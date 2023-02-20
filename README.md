@@ -1,16 +1,21 @@
-# luminously
+# Luminously Task
 
-A new Flutter project.
+This is the task you asked me about. <br/>
+I have implemented all features that you asked me to implement in the pdf that you sent.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get access to the application you need to log in using one of those three accounts:
 
-A few resources to get you started if this is your first Flutter project:
+- User1: 
+  * email: talal@strawhat.com
+  * Password: 12345678
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User2: 
+  * email: talal2@strawhat.com
+  * Password: 12345678
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- User3: 
+  * email: talal3@strawhat.com
+  * Password: 12345678
