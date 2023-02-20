@@ -8,6 +8,7 @@
   "address": "Address",
   "phoneNumber": "Phone number",
   "invalidLoginCredential": "Invalid Login Credential",
+  "invalidEmail": "Not valid Email",
   "settings": "Settings",
   "ok": "Okay",
   "cancel": "Cancel",

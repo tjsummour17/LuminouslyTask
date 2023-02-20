@@ -3,6 +3,7 @@ import 'package:lottie/lottie.dart';
 import 'package:luminously/src/common/models/user.dart';
 import 'package:luminously/src/common/providers/user_provider.dart';
 import 'package:luminously/src/common/resources/assets.dart';
+import 'package:luminously/src/common/resources/constants.dart';
 import 'package:luminously/src/common/utils/ui/build_context_x.dart';
 import 'package:luminously/src/common/widgets/loading_widget.dart';
 import 'package:luminously/src/common/widgets/main_button.dart';
@@ -106,7 +107,10 @@ class _LoginPageState extends State<_LoginPage> {
                 TextFormField(
                   controller: usernameController,
                   keyboardType: TextInputType.emailAddress,
-                  validator: (String? v) => v == null || v.isEmpty ? "*" : null,
+                  validator: (String? v) =>
+                      v != null && RegExp(Constants.emailRegEx).hasMatch(v)
+                          ? null
+                          : context.localizations.invalidEmail,
                   decoration: InputDecoration(
                     labelText: context.localizations.email,
                   ),
@@ -116,6 +120,8 @@ class _LoginPageState extends State<_LoginPage> {
                   controller: passwordController,
                   obscureText: passwordObscure,
                   keyboardType: TextInputType.visiblePassword,
+                  validator: (String? v) =>
+                      v != null && v.isNotEmpty ? null : '*',
                   decoration: InputDecoration(
                     hintText: context.localizations.password,
                     suffixIcon: IconButton(
