@@ -1,0 +1,32 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "pleaseLogin": "Please Login",
+  "welcomeBack": "Welcome back please login to your account.",
+  "rememberMe": "Remember Me",
+  "address": "Address",
+  "phoneNumber": "Phone number",
+  "invalidLoginCredential": "Invalid Login Credential",
+  "settings": "Settings",
+  "ok": "Okay",
+  "cancel": "Cancel",
+  "careAndCure": "Care And Cure\nIs Our Goals",
+  "getStarted": "Get Started",
+  "theme": "Theme",
+  "systemDefault": "System Default",
+  "light": "Light",
+  "dark": "Dark",
+  "logout": "Logout",
+  "areYouSureToLogout": "Are you sure you want to logout?",
+  "searchDoctor": "Search Doctors, Health Issues",
+  "didNotFoundAnyDoctor": "Couldn't found any doctor with the name you provide",
+  "helloUser": "Hello, {user}",
+  "@helloUser": {
+    "placeholders": {
+      "user": {
+        "type": "String"
+      }
+    }
+  }
+}
